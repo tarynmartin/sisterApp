@@ -19,6 +19,7 @@ function Transactions({ data }) {
     <article>
       {mappedResults.length > 0 &&
       <>
+        <h3>Transactions</h3>
         {mappedResults}
       </>
       }
