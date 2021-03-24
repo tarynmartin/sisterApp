@@ -10,30 +10,16 @@ import Signup from './Signup/Signup.js';
 import Address from './Address/Address.js';
 import Mail from './Mail/Mail.js';
 import Geolocation from './Geolocation/Geolocation.js';
+import MoreInfo from './MoreInfo/MoreInfo.js';
+import SpendingInfo from './SpendingInfo/SpendingInfo.js'
+import Results from './Results/Results.js';
 import './App.css';
 
 function App() {
   const [results, setResults] = useState([])
-  let user = "Jane";
-
-  // useEffect(() => {
-  //   var myHeaders = new Headers();
-  //   myHeaders.append("sandpit-key", "53840511-4749-4367-8246-14e9bf9aee3c");
-  //   myHeaders.append("Accept-Profile", "api");
-
-  //   var requestOptions = {
-  //     method: 'GET',
-  //     headers: myHeaders,
-  //     redirect: 'follow'
-  //   };
-
-  //   fetch("https://data.fintechsandpit.com/WEETS_financial_BankingTransJoanneMiles", requestOptions)
-  //     .then(response => response.json())
-  //     .then(result => {
-  //       setResults(result)
-  //     })
-  //     .catch(error => console.log('error', error)); 
-  // }, [])
+  const [user, setUser] = useState("Jane")
+  const [donated, setDonation] = useState(0)
+  const [answer, setAnswer] = useState(null)
 
     // /more-info - check wireframes
     // /spending-info
@@ -49,13 +35,49 @@ function App() {
             return (
               <>
                 <Header user={user} />
-                <DonationBar />
-                <Transactions data={results} />
+                <DonationBar donated={donated}/>
+                <Transactions donated={donated} setDonation={setDonation} />
               </>
             );
           }}
         />
       )}
+      <Route
+        exact
+        path="/results"
+        render={() => {
+          return (
+            <>
+              <Header user={"none"} />
+              <Results />
+            </>
+          );
+        }}
+      />
+      <Route
+        exact
+        path="/spending-info"
+        render={() => {
+          return (
+            <>
+              <Header user={"none"} />
+              <SpendingInfo setAnswer={setAnswer}/>
+            </>
+          );
+        }}
+      />
+      <Route
+        exact
+        path="/more-info"
+        render={() => {
+          return (
+            <>
+              <Header user={"none"} />
+              <MoreInfo />
+            </>
+          );
+        }}
+      />
       <Route
         exact
         path="/mail"
@@ -99,7 +121,7 @@ function App() {
           return (
             <>
               <Header user={"none"} />
-              <Signup />
+              <Signup setUser={setUser}/>
             </>
           );
         }}
@@ -144,4 +166,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;

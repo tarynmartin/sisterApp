@@ -14,7 +14,7 @@ function Header({user}) {
             className="logo"
           />
           <div className="next-bar">
-            <h2 className="welcome-name">Welcome Sharon!</h2>
+            <h2 className="welcome-name">{`Welcome ${user}!`}</h2>
             <Link to="/">
               <button className="logout-button">Log Out</button>
             </Link>

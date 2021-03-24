@@ -1,7 +1,7 @@
 import React from 'react';
 import './DonationBar.css'
 
-function DonationBar() {
+function DonationBar({donated}) {
   return (
     <div className="donation-bar">
       <div className="info">
@@ -12,7 +12,7 @@ function DonationBar() {
         </article>
         <article className="donations">
           <h3 className="bar-title">Total Donated</h3>
-          <h4 className="bar-amount">$20</h4>
+          <h4 className="bar-amount">{`$${donated.toFixed(2)}`}</h4>
           <button className="donate-button">Donate/ Roundup</button>
         </article>
       </div>

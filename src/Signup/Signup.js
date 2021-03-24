@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import './Signup.css';
 
-function Signup() {
+function Signup({setUser}) {
   const [idType, setType] = useState(null);
 
   let setIDType = (event) => {
@@ -11,7 +11,7 @@ function Signup() {
   return (
     <article className="signup">
       <h2>Sign Up</h2>
-      <input type="text" placeholder="First Name"></input>
+      <input type="text" placeholder="First Name" onChange={(e) => setUser(e.target.value)}></input>
       <input type="text" placeholder="Last Name"></input>
       <input type="email" placeholder="Your Email"></input>
       <label htmlFor="dob" className="dob-label">Date of Birth</label>

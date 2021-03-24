@@ -52,3 +52,9 @@ h4 {
   justify-content: center;
   align-items: center;
 }
+
+.apply-button:hover,
+.donate-button:hover {
+  background-color: #04AFA8;
+  color: #EFC465;
+}

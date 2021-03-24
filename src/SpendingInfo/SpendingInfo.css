@@ -1,29 +1,27 @@
-.signup {
+.spending-info {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  color: #EFC465
 }
 
-h2,
-.dob-label{
-  color: #EFC465;
+.spending-info-title {
+  color: #EFC465
 }
 
-.dob-label {
-  font-weight: bolder;
+form {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
 
-input, .dropdown {
-  width: 90%;
-  justify-content: center;
-  margin: 3%;
-  font-size: 1em;
-  padding: 0.5em;
-  margin-top: 2em;
+form > input {
+  grid-column: 1;
 }
 
-.dropdown {
-  width: 94%;
+form > label {
+  grid-column: 2;
+  padding-top: 2em;
+  margin-right: 1em;
 }
 
 .button {
@@ -34,7 +32,7 @@ input, .dropdown {
   height: 15%;
   padding: 1em;
   margin: 0.5em;
-  margin-top: 1em;
+  margin-top: 2.5em;
   font-size: 2em;
   font-weight: bold;
   border-radius: 5px;

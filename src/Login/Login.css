@@ -26,3 +26,8 @@ input {
   font-weight: bold;
   border-radius: 5px;
 }
+
+.button:hover {
+  background-color: #04AFA8;
+  color: #EFC465;
+}

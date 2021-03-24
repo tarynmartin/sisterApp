@@ -1,29 +1,19 @@
-.signup {
+.results {
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 
-h2,
-.dob-label{
+.results-title {
   color: #EFC465;
+  margin: 1em;
 }
 
-.dob-label {
-  font-weight: bolder;
-}
-
-input, .dropdown {
-  width: 90%;
-  justify-content: center;
-  margin: 3%;
-  font-size: 1em;
-  padding: 0.5em;
-  margin-top: 2em;
-}
-
-.dropdown {
-  width: 94%;
+.results-description {
+  display: table;
+  margin: 1.5em auto;
+  color: #EFC465;
+  font-size: 1.5em;
 }
 
 .button {
@@ -34,7 +24,7 @@ input, .dropdown {
   height: 15%;
   padding: 1em;
   margin: 0.5em;
-  margin-top: 1em;
+  margin-top: 2.5em;
   font-size: 2em;
   font-weight: bold;
   border-radius: 5px;
