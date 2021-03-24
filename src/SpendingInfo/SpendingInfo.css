@@ -6,12 +6,14 @@
 }
 
 .spending-info-title {
-  color: #EFC465
+  color: #EFC465;
+  margin: 0.5em 2.5em 0 0.5em;
 }
 
 form {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  margin: 0.5em 2.5em 0 0.5em;
 }
 
 form > input {

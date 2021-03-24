@@ -6,7 +6,7 @@
 
 .results-title {
   color: #EFC465;
-  margin: 1em;
+  margin: 0.5em 2.5em 0 0.5em;
 }
 
 .results-description {
@@ -14,6 +14,10 @@
   margin: 1.5em auto;
   color: #EFC465;
   font-size: 1.5em;
+}
+
+.partner-link {
+  margin-right: 1em;
 }
 
 .button {

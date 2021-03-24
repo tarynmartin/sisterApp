@@ -11,7 +11,7 @@ function Results() {
         <li>Roundup</li>
         <li>Non-Profit X</li>
       </ul>
-      <h2>Visit our larger <a href="#">partner library</a>.</h2>
+      <h2 className="partner-link">Visit our larger <a href="#">partner library</a>.</h2>
       <Link to={"/main"}>
         <button className="button">See Your Account!</button>
       </Link>

@@ -9,7 +9,8 @@
 }
 
 .welcome-description {
-  color: #EFC465
+  color: #EFC465;
+  margin: 0.5em 2.5em 0 0.5em;
 }
 
 .button {
