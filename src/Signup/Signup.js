@@ -13,7 +13,7 @@ function Signup({setUser}) {
       <h2>Sign Up</h2>
       <input type="text" placeholder="First Name" onChange={(e) => setUser(e.target.value)}></input>
       <input type="text" placeholder="Last Name"></input>
-      <input type="email" placeholder="Your Email"></input>
+      <input type="email" placeholder="Your Email" id="email"></input>
       <label htmlFor="dob" className="dob-label">Date of Birth</label>
       <input type="date" id="dob"></input>
       <select className="dropdown" onChange={setIDType}>
@@ -26,17 +26,17 @@ function Signup({setUser}) {
         <input type="number" placeholder="111-22-3333"></input>
       )}
       {idType === "id" && (
-        <button className="button">
+        <button className="id-button">
           Click here for facial recognition of your ID
         </button>
       )}
       {idType === "passport" && (
-        <button className="button">
+        <button className="passport-button">
           Click here for facial recognition of your passport
         </button>
       )}
       <Link to={"/address"}>
-        <button className="button">Address Verification</button>
+        <button className="address-verification-button">Address Verification</button>
       </Link>
     </article>
   );

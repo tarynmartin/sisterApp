@@ -16,10 +16,14 @@ h2,
 input, .dropdown {
   width: 85%;
   justify-content: center;
-  margin: 3% 1em 3% 0.3em;
+  margin: 3% 1em;
   font-size: 1em;
   padding: 0.5em;
   margin-top: 2em;
+}
+
+#email {
+  margin-bottom: 1em;
 }
 
 .dropdown {
@@ -28,9 +32,12 @@ input, .dropdown {
 
 #dob {
   width: 86%;
+  margin-top: 0.5em;
 }
 
-.button {
+.id-button,
+.passport-button,
+.address-verification-button {
   background-color: #EFC465;
   color: #653D7F;
   border: none;
@@ -44,7 +51,9 @@ input, .dropdown {
   border-radius: 5px;
 }
 
-.button:hover {
+.id-button:hover,
+.passport-button:hover,
+.address-verification-button:hover {
   background-color: #04AFA8;
   color: #EFC465;
 }

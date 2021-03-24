@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Route } from 'react-router-dom';
 import Header from './Header/Header.js';
 import DonationBar from './DonationBar/DonationBar.js';
@@ -16,14 +16,9 @@ import Results from './Results/Results.js';
 import './App.css';
 
 function App() {
-  const [results, setResults] = useState([])
   const [user, setUser] = useState("Jane")
   const [donated, setDonation] = useState(0)
   const [answer, setAnswer] = useState(null)
-
-    // /more-info - check wireframes
-    // /spending-info
-    // /results w/button to home screen
 
   return (
     <div className="App">
@@ -49,7 +44,7 @@ function App() {
           return (
             <>
               <Header user={"none"} />
-              <Results />
+              <Results answer={answer}/>
             </>
           );
         }}

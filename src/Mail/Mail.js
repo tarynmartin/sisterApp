@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Mail.css'
 
 function Mail() {
   return (
     <article className="mail">
-      <h1>Click the Button to Upload an Image of the Correct Document Type:</h1>
-      <button className="button" id="shift">Upload Image</button>
+      <h1 className="mail-title">Click the Button to Upload an Image of the Correct Document Type:</h1>
+      <button className="upload-button" id="shift">Upload Image</button>
       <Link to={"/more-info"}>
-        <button className="button">Next Step</button>
+        <button className="next-button">Next Step</button>
       </Link>
     </article>
   );

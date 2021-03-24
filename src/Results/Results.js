@@ -13,7 +13,7 @@ function Results() {
       </ul>
       <h2 className="partner-link">Visit our larger <a href="#">partner library</a>.</h2>
       <Link to={"/main"}>
-        <button className="button">See Your Account!</button>
+        <button className="final-button">See Your Account!</button>
       </Link>
     </article>
   );

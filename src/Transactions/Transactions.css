@@ -22,13 +22,10 @@
   margin-bottom: 0.2em;
 }
 
-/* .shift {
-  margin-right: 1.5em;
-} */
-
 .all-transactions {
   height: 30vh;
   overflow-y: scroll;
   margin: 0.5em;
   background-color: #653D7F;
+  width: 93%;
 }

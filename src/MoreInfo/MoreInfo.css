@@ -12,28 +12,28 @@
 .more-info-description,
 .more-info-last {
   color: #EFC465;
-  margin: 1em;
+  margin: 0.5em 1.5em 0 0.5em;
 }
 
 .more-info-last {
   margin-bottom: 0;
 }
 
-.button {
+.step-button {
   background-color: #EFC465;
   color: #653D7F;
   border: none;
   width: 88%;
   height: 15%;
   padding: 1em;
-  margin: 0.5em 1em 0 0;
+  margin: 0.5em 1em 0 0.5em;
   margin-top: 2em;
   font-size: 2em;
   font-weight: bold;
   border-radius: 5px;
 }
 
-.button:hover {
+.step-button:hover {
   background-color: #04AFA8;
   color: #EFC465;
 }

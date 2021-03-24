@@ -13,7 +13,7 @@ function MoreInfo() {
       <p className="more-info-description">Glad you’re here!</p>
       <p className="more-info-last"> - Irene</p>
       <Link to={"/spending-info"} className="link">
-        <button className="button">Next Step</button>
+        <button className="step-button">Next Step</button>
       </Link>
     </article>
   );

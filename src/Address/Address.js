@@ -5,12 +5,12 @@ import './Address.css'
 function Address() {
   return (
     <article className="address">
-      <h1>How Would You Like to Verify Your Address?</h1>
+      <h1 className="address-title">How Would You Like to Verify Your Address?</h1>
       <Link to={"/mail"}>
-        <button className="button">Bill/Mail</button>
+        <button className="bill-button">Bill/Mail</button>
       </Link>
       <Link to={"/geolocation"}>
-        <button className="button">Use Geolocation</button>
+        <button className="geo-button">Use Geolocation</button>
       </Link>
     </article>
   );

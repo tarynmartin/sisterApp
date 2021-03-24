@@ -26,21 +26,21 @@ form > label {
   margin-right: 1em;
 }
 
-.button {
+.step2-button {
   background-color: #EFC465;
   color: #653D7F;
   border: none;
   width: 88%;
   height: 15%;
   padding: 1em;
-  margin: 0.5em 1em 0 0;
+  margin: 0.5em 1em 0 0.5em;
   margin-top: 2em;
   font-size: 2em;
   font-weight: bold;
   border-radius: 5px;
 }
 
-.button:hover {
+.step2-button:hover {
   background-color: #04AFA8;
   color: #EFC465;
 }

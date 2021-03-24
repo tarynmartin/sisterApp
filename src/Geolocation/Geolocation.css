@@ -8,21 +8,36 @@ h1 {
   color: #EFC465;
 }
 
-.button {
+.find-button {
   background-color: #EFC465;
   color: #653D7F;
   border: none;
   width: 88%;
   height: 15%;
   padding: 1em;
-  margin: 0.5em 1em 0 0;
+  margin: 0.5em 1em 0 0.5em;
   margin-top: 2em;
   font-size: 2em;
   font-weight: bold;
   border-radius: 5px;
 }
 
-.button:hover {
+.next-button {
+  background-color: #EFC465;
+  color: #653D7F;
+  border: none;
+  width: 88%;
+  height: 15%;
+  padding: 1em;
+  margin: 0.5em 1em 0 0.8em;
+  margin-top: 2em;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.find-button:hover,
+.next-button:hover {
   background-color: #04AFA8;
   color: #EFC465;
 }

@@ -6,9 +6,9 @@ function Geolocation() {
   return (
     <article className="geolocation">
       <h1>Click the Button to Use Geolocation to Verify Address</h1>
-      <button className="button" id="shift">Find My Address</button>
+      <button className="find-button" id="shift">Find My Address</button>
       <Link to={"/more-info"}>
-        <button className="button">Next Step</button>
+        <button className="next-button">Next Step</button>
       </Link>
     </article>
   );

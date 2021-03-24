@@ -30,7 +30,7 @@ describes your spending over the last 3 months?</h1>
 
     </form>
       <Link to={"/results"}>
-        <button className="button">Next Step</button>
+        <button className="step2-button">Next Step</button>
       </Link>
     </article>
   );
