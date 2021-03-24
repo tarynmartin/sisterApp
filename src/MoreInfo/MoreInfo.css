@@ -22,11 +22,11 @@
   background-color: #EFC465;
   color: #653D7F;
   border: none;
-  width: 90%;
+  width: 88%;
   height: 15%;
   padding: 1em;
-  margin: 0.5em;
-  margin-top: 2.5em;
+  margin: 0.5em 1em 0 0;
+  margin-top: 2em;
   font-size: 2em;
   font-weight: bold;
   border-radius: 5px;
