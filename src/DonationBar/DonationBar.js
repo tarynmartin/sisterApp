@@ -6,14 +6,14 @@ function DonationBar() {
     <div className="donation-bar">
       <div className="info">
         <article className="help">
-          <h3>Help Received</h3>
-          <h4>$0</h4>
-          <button >Apply for Help</button>
+          <h3 className="bar-title">Help Received</h3>
+          <h4 className="bar-amount">$0</h4>
+          <button className="apply-button">Apply for Help</button>
         </article>
         <article className="donations">
-          <h3>Total Donated</h3>
-          <h4>$20</h4>
-          <button>Donate/Enable Roundup</button>
+          <h3 className="bar-title">Total Donated</h3>
+          <h4 className="bar-amount">$20</h4>
+          <button className="donate-button">Donate/ Roundup</button>
         </article>
       </div>
     </div>

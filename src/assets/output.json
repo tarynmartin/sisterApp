@@ -1,0 +1,372 @@
+{
+    "C1231006815": {
+        "txn_info": [
+            {
+                "rounded_amount": 9840,
+                "actual_amount": "9839.64",
+                "diff_amount": 0.3600000000005821
+            }
+        ],
+        "total_rounded_so_far": 0.3600000000005821
+    },
+    "C1666544295": {
+        "txn_info": [
+            {
+                "rounded_amount": 1865,
+                "actual_amount": "1864.28",
+                "diff_amount": 0.7200000000000273
+            }
+        ],
+        "total_rounded_so_far": 0.7200000000000273
+    },
+    "C2048537720": {
+        "txn_info": [
+            {
+                "rounded_amount": 11669,
+                "actual_amount": "11668.14",
+                "diff_amount": 0.8600000000005821
+            }
+        ],
+        "total_rounded_so_far": 0.8600000000005821
+    },
+    "C90045638": {
+        "txn_info": [
+            {
+                "rounded_amount": 7818,
+                "actual_amount": "7817.71",
+                "diff_amount": 0.2899999999999636
+            }
+        ],
+        "total_rounded_so_far": 0.2899999999999636
+    },
+    "C154988899": {
+        "txn_info": [
+            {
+                "rounded_amount": 7108,
+                "actual_amount": "7107.77",
+                "diff_amount": 0.22999999999956344
+            }
+        ],
+        "total_rounded_so_far": 0.22999999999956344
+    },
+    "C1912850431": {
+        "txn_info": [
+            {
+                "rounded_amount": 7862,
+                "actual_amount": "7861.64",
+                "diff_amount": 0.3599999999996726
+            }
+        ],
+        "total_rounded_so_far": 0.3599999999996726
+    },
+    "C1265012928": {
+        "txn_info": [
+            {
+                "rounded_amount": 4025,
+                "actual_amount": "4024.36",
+                "diff_amount": 0.6399999999998727
+            }
+        ],
+        "total_rounded_so_far": 0.6399999999998727
+    },
+    "C249177573": {
+        "txn_info": [
+            {
+                "rounded_amount": 3100,
+                "actual_amount": "3099.97",
+                "diff_amount": 0.03000000000020009
+            }
+        ],
+        "total_rounded_so_far": 0.03000000000020009
+    },
+    "C1648232591": {
+        "txn_info": [
+            {
+                "rounded_amount": 2561,
+                "actual_amount": "2560.74",
+                "diff_amount": 0.2600000000002183
+            }
+        ],
+        "total_rounded_so_far": 0.2600000000002183
+    },
+    "C1716932897": {
+        "txn_info": [
+            {
+                "rounded_amount": 11634,
+                "actual_amount": "11633.76",
+                "diff_amount": 0.23999999999978172
+            }
+        ],
+        "total_rounded_so_far": 0.23999999999978172
+    },
+    "C1026483832": {
+        "txn_info": [
+            {
+                "rounded_amount": 4099,
+                "actual_amount": "4098.78",
+                "diff_amount": 0.22000000000025466
+            }
+        ],
+        "total_rounded_so_far": 0.22000000000025466
+    },
+    "C761750706": {
+        "txn_info": [
+            {
+                "rounded_amount": 1564,
+                "actual_amount": "1563.82",
+                "diff_amount": 0.18000000000006366
+            }
+        ],
+        "total_rounded_so_far": 0.18000000000006366
+    },
+    "C1237762639": {
+        "txn_info": [
+            {
+                "rounded_amount": 1158,
+                "actual_amount": "1157.86",
+                "diff_amount": 0.14000000000010004
+            }
+        ],
+        "total_rounded_so_far": 0.14000000000010004
+    },
+    "C2033524545": {
+        "txn_info": [
+            {
+                "rounded_amount": 672,
+                "actual_amount": "671.64",
+                "diff_amount": 0.36000000000001364
+            }
+        ],
+        "total_rounded_so_far": 0.36000000000001364
+    },
+    "C20804602": {
+        "txn_info": [
+            {
+                "rounded_amount": 1374,
+                "actual_amount": "1373.43",
+                "diff_amount": 0.5699999999999363
+            }
+        ],
+        "total_rounded_so_far": 0.5699999999999363
+    },
+    "C504336483": {
+        "txn_info": [
+            {
+                "rounded_amount": 3877,
+                "actual_amount": "3876.41",
+                "diff_amount": 0.5900000000001455
+            }
+        ],
+        "total_rounded_so_far": 0.5900000000001455
+    },
+    "C1043358826": {
+        "txn_info": [
+            {
+                "rounded_amount": 6062,
+                "actual_amount": "6061.13",
+                "diff_amount": 0.8699999999998909
+            }
+        ],
+        "total_rounded_so_far": 0.8699999999998909
+    },
+    "C1671590089": {
+        "txn_info": [
+            {
+                "rounded_amount": 9479,
+                "actual_amount": "9478.39",
+                "diff_amount": 0.6100000000005821
+            }
+        ],
+        "total_rounded_so_far": 0.6100000000005821
+    },
+    "C1053967012": {
+        "txn_info": [
+            {
+                "rounded_amount": 8010,
+                "actual_amount": "8009.09",
+                "diff_amount": 0.9099999999998545
+            }
+        ],
+        "total_rounded_so_far": 0.9099999999998545
+    },
+    "C1632497828": {
+        "txn_info": [
+            {
+                "rounded_amount": 8902,
+                "actual_amount": "8901.99",
+                "diff_amount": 0.010000000000218279
+            }
+        ],
+        "total_rounded_so_far": 0.010000000000218279
+    },
+    "C764826684": {
+        "txn_info": [
+            {
+                "rounded_amount": 9921,
+                "actual_amount": "9920.52",
+                "diff_amount": 0.47999999999956344
+            }
+        ],
+        "total_rounded_so_far": 0.47999999999956344
+    },
+    "C2103763750": {
+        "txn_info": [
+            {
+                "rounded_amount": 3449,
+                "actual_amount": "3448.92",
+                "diff_amount": 0.07999999999992724
+            }
+        ],
+        "total_rounded_so_far": 0.07999999999992724
+    },
+    "C215078753": {
+        "txn_info": [
+            {
+                "rounded_amount": 4207,
+                "actual_amount": "4206.84",
+                "diff_amount": 0.15999999999985448
+            }
+        ],
+        "total_rounded_so_far": 0.15999999999985448
+    },
+    "C840514538": {
+        "txn_info": [
+            {
+                "rounded_amount": 5886,
+                "actual_amount": "5885.56",
+                "diff_amount": 0.4399999999995998
+            }
+        ],
+        "total_rounded_so_far": 0.4399999999995998
+    },
+    "C1768242710": {
+        "txn_info": [
+            {
+                "rounded_amount": 5308,
+                "actual_amount": "5307.88",
+                "diff_amount": 0.11999999999989086
+            }
+        ],
+        "total_rounded_so_far": 0.11999999999989086
+    },
+    "C247113419": {
+        "txn_info": [
+            {
+                "rounded_amount": 5032,
+                "actual_amount": "5031.22",
+                "diff_amount": 0.7799999999997453
+            }
+        ],
+        "total_rounded_so_far": 0.7799999999997453
+    },
+    "C1238616099": {
+        "txn_info": [
+            {
+                "rounded_amount": 24214,
+                "actual_amount": "24213.67",
+                "diff_amount": 0.33000000000174623
+            }
+        ],
+        "total_rounded_so_far": 0.33000000000174623
+    },
+    "C1608633989": {
+        "txn_info": [
+            {
+                "rounded_amount": 8604,
+                "actual_amount": "8603.42",
+                "diff_amount": 0.5799999999999272
+            }
+        ],
+        "total_rounded_so_far": 0.5799999999999272
+    },
+    "C923341586": {
+        "txn_info": [
+            {
+                "rounded_amount": 2792,
+                "actual_amount": "2791.42",
+                "diff_amount": 0.5799999999999272
+            }
+        ],
+        "total_rounded_so_far": 0.5799999999999272
+    },
+    "C1470868839": {
+        "txn_info": [
+            {
+                "rounded_amount": 7414,
+                "actual_amount": "7413.54",
+                "diff_amount": 0.4600000000000364
+            }
+        ],
+        "total_rounded_so_far": 0.4600000000000364
+    },
+    "C711197015": {
+        "txn_info": [
+            {
+                "rounded_amount": 3296,
+                "actual_amount": "3295.19",
+                "diff_amount": 0.8099999999999454
+            }
+        ],
+        "total_rounded_so_far": 0.8099999999999454
+    },
+    "C1481594086": {
+        "txn_info": [
+            {
+                "rounded_amount": 1685,
+                "actual_amount": "1684.81",
+                "diff_amount": 0.19000000000005457
+            }
+        ],
+        "total_rounded_so_far": 0.19000000000005457
+    },
+    "C260084831": {
+        "txn_info": [
+            {
+                "rounded_amount": 7824,
+                "actual_amount": "7823.46",
+                "diff_amount": 0.5399999999999636
+            }
+        ],
+        "total_rounded_so_far": 0.5399999999999636
+    },
+    "C598357562": {
+        "txn_info": [
+            {
+                "rounded_amount": 5087,
+                "actual_amount": "5086.48",
+                "diff_amount": 0.5200000000004366
+            }
+        ],
+        "total_rounded_so_far": 0.5200000000004366
+    },
+    "C1440738283": {
+        "txn_info": [
+            {
+                "rounded_amount": 5282,
+                "actual_amount": "5281.48",
+                "diff_amount": 0.5200000000004366
+            }
+        ],
+        "total_rounded_so_far": 0.5200000000004366
+    },
+    "C484199463": {
+        "txn_info": [
+            {
+                "rounded_amount": 13876,
+                "actual_amount": "13875.98",
+                "diff_amount": 0.020000000000436557
+            }
+        ],
+        "total_rounded_so_far": 0.020000000000436557
+    },
+    "C1615801298": {
+        "txn_info": [
+            {
+                "rounded_amount": 2205,
+                "actual_amount": "2204.04",
+                "diff_amount": 0.9600000000000364
+            }
+        ],
+        "total_rounded_so_far": 0.9600000000000364
+    }
+}

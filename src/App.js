@@ -16,31 +16,32 @@ function App() {
   const [results, setResults] = useState([])
   let user = "Jane";
 
-  useEffect(() => {
-    var myHeaders = new Headers();
-    myHeaders.append("sandpit-key", "53840511-4749-4367-8246-14e9bf9aee3c");
-    myHeaders.append("Accept-Profile", "api");
+  // useEffect(() => {
+  //   var myHeaders = new Headers();
+  //   myHeaders.append("sandpit-key", "53840511-4749-4367-8246-14e9bf9aee3c");
+  //   myHeaders.append("Accept-Profile", "api");
 
-    var requestOptions = {
-      method: 'GET',
-      headers: myHeaders,
-      redirect: 'follow'
-    };
+  //   var requestOptions = {
+  //     method: 'GET',
+  //     headers: myHeaders,
+  //     redirect: 'follow'
+  //   };
 
-    fetch("https://data.fintechsandpit.com/WEETS_financial_BankingTransJoanneMiles", requestOptions)
-      .then(response => response.json())
-      .then(result => {
-        setResults(result)
-      })
-      .catch(error => console.log('error', error)); 
-  }, [])
+  //   fetch("https://data.fintechsandpit.com/WEETS_financial_BankingTransJoanneMiles", requestOptions)
+  //     .then(response => response.json())
+  //     .then(result => {
+  //       setResults(result)
+  //     })
+  //     .catch(error => console.log('error', error)); 
+  // }, [])
 
-    // /mail - verification using mail
-    // /geolocation - verification using geolocation
+    // /more-info - check wireframes
+    // /spending-info
+    // /results w/button to home screen
 
   return (
     <div className="App">
-      {user && results.length > 0 && (
+      {user && (
         <Route
           exact
           path="/main"
@@ -50,20 +51,6 @@ function App() {
                 <Header user={user} />
                 <DonationBar />
                 <Transactions data={results} />
-              </>
-            );
-          }}
-        />
-      )}
-      {user && results.length === 0 && (
-        <Route
-          exact
-          path="/main"
-          render={() => {
-            return (
-              <>
-                <Header user={user} />
-                <h1>Hold on while we get your information</h1>
               </>
             );
           }}

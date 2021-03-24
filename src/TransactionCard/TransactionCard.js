@@ -1,12 +1,12 @@
 import React from 'react';
+import './TransactionCard.css';
 
-function TransactionCard({transaction}) {
+function TransactionCard({index, transaction, rounded}) {
+
   return(
-    <article>
-      <p>{transaction.date_time_calc}</p>
-      <p>{transaction.beneficiary}</p>
-      <p>{transaction.amount}</p>
-      <p>{transaction.balance}</p>
+    <article className="card">
+      <p>{`#${index + 1}`}</p>
+      <p>{`$${transaction[0].rounded_amount}.00`}</p>
     </article>
   )
 }

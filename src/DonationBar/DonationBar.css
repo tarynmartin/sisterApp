@@ -3,11 +3,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
 }
 
 .info {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 50vw);
+  height: 35vh;
 }
 
 .help {
@@ -18,3 +20,35 @@
   grid-column: 2;
 }
 
+h3,
+h4 {
+  color: #EFC465;
+}
+
+.bar-title{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.bar-amount {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.apply-button,
+.donate-button {
+  background-color: #EFC465;
+  color: #653D7F;
+  border: none;
+  width: 90%;
+  height: 15%;
+  padding: 1.5em 1em;
+  margin: 0.5em;
+  margin-top: 1em;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
