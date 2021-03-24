@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
+import './Signup.css';
 
 function Signup() {
   const [idType, setType] = useState(null);
@@ -8,12 +9,12 @@ function Signup() {
     setType(event.target.value);
   }
   return (
-    <article>
+    <article className="signup">
       <h2>Sign Up</h2>
       <input type="text" placeholder="First Name"></input>
       <input type="text" placeholder="Last Name"></input>
       <input type="email" placeholder="Your Email"></input>
-      <label htmlFor="dob">Date of Birth</label>
+      <label htmlFor="dob" className="dob-label">Date of Birth</label>
       <input type="date" id="dob"></input>
       <select className="dropdown" onChange={setIDType}>
         <option>Select ID Type</option>
@@ -25,13 +26,17 @@ function Signup() {
         <input type="number" placeholder="111-22-3333"></input>
       )}
       {idType === "id" && (
-        <button>Click here for facial recognition of your ID</button>
+        <button className="button">
+          Click here for facial recognition of your ID
+        </button>
       )}
       {idType === "passport" && (
-        <button>Click here for facial recognition of your passport</button>
+        <button className="button">
+          Click here for facial recognition of your passport
+        </button>
       )}
       <Link to={"/address"}>
-        <button>Address Verification</button>
+        <button className="button">Address Verification</button>
       </Link>
     </article>
   );

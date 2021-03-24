@@ -1,14 +1,8 @@
 import React from 'react';
 import TransactionCard from "../TransactionCard/TransactionCard.js";
+import './Transactions.css'
 
 function Transactions({ data }) {
-  console.log(typeof data)
-  console.log("data", data)
-  // const mappedResults = data.map(transaction => {
-  //   return (
-  //     )
-  //   })
-    
     const mappedResults = data.map(dataPoint => {
       return (
         <TransactionCard transaction={dataPoint} /> 
@@ -16,7 +10,7 @@ function Transactions({ data }) {
     })
 
   return (
-    <article>
+    <article className="transactions">
       {mappedResults.length > 0 &&
       <>
         <h3>Transactions</h3>

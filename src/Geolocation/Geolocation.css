@@ -1,0 +1,23 @@
+.geolocation {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+h1 {
+  color: #EFC465;
+}
+
+.button {
+  background-color: #EFC465;
+  color: #653D7F;
+  border: none;
+  width: 90%;
+  height: 15%;
+  padding: 1em;
+  margin: 0.5em;
+  margin-top: 1em;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 5px;
+}

@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Address.css'
 
 function Address() {
   return (
-    <article>
+    <article className="address">
       <h1>How Would You Like to Verify Your Address?</h1>
       <Link to={"/mail"}>
-        <button>Bill/Mail</button>
+        <button className="button">Bill/Mail</button>
       </Link>
       <Link to={"/geolocation"}>
-        <button>Use Geolocation</button>
+        <button className="button">Use Geolocation</button>
       </Link>
     </article>
   );

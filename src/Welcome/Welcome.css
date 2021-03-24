@@ -1,0 +1,27 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.welcome-title {
+  color: #EFC465
+}
+
+.welcome-description {
+  color: #EFC465
+}
+
+.button {
+  background-color: #EFC465;
+  color: #653D7F;
+  border: none;
+  width: 90%;
+  height: 15%;
+  padding: 1em;
+  margin: 0.5em;
+  margin-top: 2.5em;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 5px;
+}
