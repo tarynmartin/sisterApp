@@ -7,7 +7,7 @@
 .logo {
   height: 100%;
   width: 91%;
-  padding: 2em 3em 2em 0;
+  padding: 2em 2em 2em 1em;
   justify-content: center;
   background-color: white;
   grid-row: 1;
